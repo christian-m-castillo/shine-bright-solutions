@@ -58,6 +58,23 @@
       width: 200px;
     }
 
+    .contact-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .contact-button {
+      padding: 1rem;
+      font-size: 1rem;
+      background-color: #ffcc00;
+      border-radius: 5px;
+      margin-bottom: 1.3rem;
+      text-decoration: none;
+      color: #000;
+      width: min(90%, 330px);
+    }
+
     footer {
       background: #333;
       color: white;
@@ -106,10 +123,10 @@
     <p>Shine Bright Solutions is committed to providing top-quality cleaning services with a focus on customer satisfaction.</p>
   </section>
   
-  <section id="contact">
+  <section class="contact-container" id="contact">
     <h2>Contact Us</h2>
-    <p>Email: shinebrightsolutions82@gmail.com</p>
-    <p>Phone: 405-898-3402</p>
+    <a class="contact-button" href="mailto:shinebrightsolutions82@gmail.com">shinebrightsolutions82@gmail.com</a>
+    <a class="contact-button" href="tel:+14058983402">405-898-3402</a>
   </section>
   
   <footer>
